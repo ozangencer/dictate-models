@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-04-13.1",
+  "models": [
+    {
+      "id": "openai_whisper-large-v3-turbo",
+      "engine": "whisperkit",
+      "displayName": "Large v3 Turbo",
+      "description": "Best all-round quality. Multilingual. Recommended for most users.",
+      "sizeMB": 1580,
+      "quality": 5,
+      "speed": 4,
+      "languages": ["multi"],
+      "recommended": true
+    },
+    {
+      "id": "openai_whisper-large-v3-turbo_632MB",
+      "engine": "whisperkit",
+      "displayName": "Large v3 Turbo (Quantized)",
+      "description": "Quantized Turbo — near-Turbo quality at under half the size. Fastest on Apple Silicon.",
+      "sizeMB": 632,
+      "quality": 4,
+      "speed": 5,
+      "languages": ["multi"],
+      "recommended": true
+    },
+    {
+      "id": "openai_whisper-small",
+      "engine": "whisperkit",
+      "displayName": "Small",
+      "description": "Balanced quality and speed for shorter dictations.",
+      "sizeMB": 500,
+      "quality": 3,
+      "speed": 4,
+      "languages": ["multi"],
+      "recommended": false
+    },
+    {
+      "id": "openai_whisper-base",
+      "engine": "whisperkit",
+      "displayName": "Base",
+      "description": "Lightweight default. Good for quick notes and low-resource machines.",
+      "sizeMB": 150,
+      "quality": 2,
+      "speed": 5,
+      "languages": ["multi"],
+      "recommended": false
+    },
+    {
+      "id": "openai_whisper-tiny",
+      "engine": "whisperkit",
+      "displayName": "Tiny",
+      "description": "Smallest model. Fastest but lowest accuracy.",
+      "sizeMB": 80,
+      "quality": 1,
+      "speed": 5,
+      "languages": ["multi"],
+      "recommended": false
+    }
+  ]
+}
