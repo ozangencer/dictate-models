@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "2026-06-02.1-multiengine",
+  "version": "2026-06-02.2-apple",
   "models": [
     {
       "id": "openai_whisper-large-v3-turbo",
@@ -23,6 +23,17 @@
       "speed": 5,
       "languages": ["en"],
       "recommended": true
+    },
+    {
+      "id": "apple-speech",
+      "engine": "apple",
+      "displayName": "Apple Speech",
+      "description": "Built into macOS, zero download. Realtime, multilingual (incl. Turkish). Models managed by macOS.",
+      "sizeMB": 0,
+      "quality": 3,
+      "speed": 5,
+      "languages": ["multi"],
+      "recommended": false
     },
     {
       "id": "openai_whisper-large-v3",
