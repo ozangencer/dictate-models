@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "version": "2026-06-02.2-apple",
+  "version": "2026-09-02.1-ids",
   "models": [
     {
-      "id": "openai_whisper-large-v3-turbo",
+      "id": "openai_whisper-large-v3-v20240930",
       "engine": "whisperkit",
       "displayName": "Large v3 Turbo",
       "description": "Balanced — best all-round for Turkish + English. Recommended for most users.",
-      "sizeMB": 1580,
+      "sizeMB": 1545,
       "quality": 5,
       "speed": 4,
       "languages": ["multi"],
@@ -40,18 +40,18 @@
       "engine": "whisperkit",
       "displayName": "Large v3",
       "description": "Best accuracy for Turkish + English. Largest and slowest.",
-      "sizeMB": 1550,
+      "sizeMB": 2947,
       "quality": 5,
       "speed": 2,
       "languages": ["multi"],
       "recommended": false
     },
     {
-      "id": "openai_whisper-large-v3-turbo_632MB",
+      "id": "openai_whisper-large-v3-v20240930_turbo_632MB",
       "engine": "whisperkit",
       "displayName": "Large v3 Turbo (Quantized)",
       "description": "Faster Turkish + English at under half the size.",
-      "sizeMB": 632,
+      "sizeMB": 616,
       "quality": 4,
       "speed": 5,
       "languages": ["multi"],
